@@ -2,6 +2,8 @@
 def valid_move?(board, input)
   if input.between?(0, 8) && !(position_taken?(board, input))
     return false
+  else
+    return true
   end
 end
 
